@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.block{
+	width: 300px;
+	height: 480px;
+	border: 2px solid transparent;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background: #191919;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow:
+  4.5px 4.3px 0.9px rgba(0, 0, 0, 0.016),
+  12.5px 12px 4px rgba(0, 0, 0, 0.18),
+  30.1px 28.9px 10.5px rgba(0, 0, 0, 0.509),
+  100px 96px 16px rgba(0, 0, 0, 0.63)
+;
+
+}
+.block .box{
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	align-items: center;
+	text-align: center;
+}
+.block .box .heading{
+	color: #fff;
+	border: 2px solid #00BFFF;
+	background: none;
+	text-align: justify;
+	font-size: 1em;
+	padding: 5px 10px;
+	width: 28%;
+	font-weight: bolder;
+	border-radius: 5px;
+}
+.block .box .user, .password{
+	padding-top: 20px;
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+	width: 100%;
+}
+.block .box .user input[type="text"],.block .box .password input[type="password"]{
+	overflow: hidden;
+	background: none;
+	border-style: none;
+	outline: none;
+	color: white;
+	font-size: 0.9em;
+	padding: 0 25px;
+}
+.block .box .user input[type="text"]::placeholder,.block .box .password input[type="password"]::placeholder{
+	color: white;
+}
+.block .box .button{
+	margin-top: 20px;
+	width: 100px;
+}
+.block .box .button .submit button{
+	padding: 8px 0;
+	margin: 0;
+	background: none;
+	outline: none;
+	overflow: hidden;
+	width: 100%;
+	border-style: none;
+	box-sizing: border-box;
+}
+.block .box .button .submit button a{
+	font-size: 1.2em;
+	border: 2px solid #00BFFF;
+	display: block;
+	text-align: center;
+	border-radius: 15px;
+	transition: 0.25s;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	outline: none;
+}
+.block .box .button .submit button a:hover{
+	background-color: gray;
+}
+.block .box .or{
+	color: white;
+	font-size: 1em;
+	font-style: italic;
+}
+.block .box .footer{
+	font-size: 10px;
+	font-style: italic;
+	color: white;
+	top: 110%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.block .box .footer:hover{
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+}
+.block .box .social{
+	margin-top: 20px;
+	box-sizing: border-box;
+	align-items: center;
+	top: 120%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+.block .box .social .items{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0 5px;
+}
+.block .box .social .items li{
+	list-style: none;
+	width: 100%;
+}
+.block .box .social .items li img{
+	width: 50%;
+	cursor: pointer;
+}
+
